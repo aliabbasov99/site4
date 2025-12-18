@@ -1,0 +1,101 @@
+:root {
+    --mavi: #6bc2f1
+}
+.bg-boz {
+    background-color: #f1f1f1;
+}
+
+.text-mavi { color: var(--mavi)!important}
+.bg-mavi { background-color: var(--mavi)!important; }
+
+header { background: url("img/headerbg.jpg") 65% 50%/cover; }
+
+.container { max-width: 1180px; }
+#img-1 { background: url("img/art1.jpg") center/cover;}
+
+#img-1:hover, #img-2:hover{
+    opacity: .5;
+}
+#img-1:hover span, #img-2:hover span {
+    opacity: 100%!important;
+}
+.mavi-gradient {
+    background-image: linear-gradient(to right, var(--mavi), #106fa2);
+    color: transparent;
+    background-clip: text;
+}
+
+#gallery-img-1 { background: url('img/headerbg.jpg') 65% 50%/cover; }
+#gallery-img-2 { background: url('img/headerbg.jpg') center/cover; }
+#gallery-img-3 { background: url('img/headerbg.jpg') center/cover; }
+#gallery-img-4 { background: url('img/headerbg.jpg') center/cover; }
+#gallery-img-5 { background: url('img/headerbg.jpg') center/cover; }
+#gallery-img-6 { background: url('img/headerbg.jpg') center/cover; }
+
+.mh-300 {
+    object-fit: cover;
+    height: 300px!important;
+}
+.opx-75{    
+    object-position: 75% 50%;
+}
+.vh-75 {
+    height: 75vh!important;
+}
+.rounded-circle {
+    width: 45px!important;
+    height: 45px!important;
+}
+li.nav-item{
+    color: #fff!important;
+}
+
+#img-2 { background: url("img/art2.jpg") center/cover;}
+#doctor-image {background: url("img/doctor.webp") center/cover;}
+.vh-50{
+    height: 50vh!important;
+}
+.vh-25{
+    height: 25vh!important;
+}
+.vh-33{
+    height: 33.33vh!important;
+}
+.rounded-circle.active {
+    width: 75px!important;
+    height: 75px!important;
+
+}
+#indicator-img-1 {
+    background: url("img/celeb-1.jpg") center/cover;
+    background-clip: content-box;
+}
+#indicator-img-2 {
+    background: url("img/celeb-2.jpg") center/cover;
+    background-clip: content-box;
+
+}
+#indicator-img-3 {
+    background: url("img/celeb-3.jpg") center/cover;
+    background-clip: content-box;
+
+}
+#indicator-img-4 {
+    background: url("img/celeb-4.jpg") center/cover;
+    background-clip: content-box;
+
+}
+#indicator-img-5 {
+    background: url("img/celeb-5.jpeg") center/cover;
+    background-clip: content-box;
+    
+}
+
+
+@media only screen and (min-width: 768px) {
+    #img-1 { order: -1;}
+    .vh-md-85 {
+        height: 85vh!important;
+    }
+    
+}
